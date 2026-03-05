@@ -30,5 +30,5 @@ The analysis revealed a stark spatial correlation: **77.2% of mapped parks** fal
 ## 📂 Project Structure
 *   `Green_Effect_Analysis.ipynb`: The full analytical workflow, from API calls to LISA cluster mapping.
 *   `london_boundaries/`: Shapefiles for London Boroughs and LSOAs.
-*   `outputs/`: Saved interactive HTML maps and statistical plots.
+*   `Green_Paradox`: Saved interactive HTML maps and statistical plots.
 
