@@ -1,11 +1,11 @@
 # The Green Effect: Investigating Green Gentrification
 
-## 📖 Overview
+##  Overview
 This project investigates the **"Green Paradox"** in East London, a phenomenon where urban greening projects (parks, wetlands, "blandscaping") inadvertently drives up property values and displace the low-income residents they were intended to serve. 
 
 Using geospatial data science, the project identifies statistically significant clusters where high structural deprivation intersects with high density of new green infrastructure, marking "ground zero" for ecological gentrification.
 
-## 🚀 Key Technical Features
+##  Key Technical Features
 
 *   **Robust 2-Step API Pipeline:** Engineered a real-time data ingestion system combining **Nominatim** (geocoding) and **OSM Overpass API**.
     *   Implemented multiple endpoint fallback logic to ensure high availability.
@@ -17,10 +17,10 @@ Using geospatial data science, the project identifies statistically significant 
     *   Integrated **MarkerCluster** logic for high-density point data.
     *   Layered IMD (Index of Multiple Deprivation) choropleths against park density.
 
-## 📊 Critical Insight
+##  Critical Insight
 The analysis revealed a stark spatial correlation: **77.2% of mapped parks** fall within the **40% most deprived LSOAs** across the 5 East London boroughs studied. This data-driven insight quantifies the immense displacement pressure currently facing these vulnerable communities.
 
-## 🛠 Tech Stack
+##  Tech Stack
 *   **Language:** Python
 *   **Spatial Analysis:** GeoPandas, libpysal, esda, Shapely
 *   **APIs:** Overpass (OpenStreetMap), Nominatim
@@ -30,5 +30,5 @@ The analysis revealed a stark spatial correlation: **77.2% of mapped parks** fal
 ## 📂 Project Structure
 *   `Green_Effect_Analysis.ipynb`: The full analytical workflow, from API calls to LISA cluster mapping.
 *   `london_boundaries/`: Shapefiles for London Boroughs and LSOAs.
-*   `Green_Paradox`: Saved interactive HTML maps and statistical plots.
+*   `Green_Paradox.html`: Saved interactive HTML maps and statistical plots.
 
